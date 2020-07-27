@@ -1,0 +1,11 @@
+# Site settings
+title: 适说
+author: Shi Shu (Will)
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
